@@ -1,10 +1,13 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: Component
 metadata:
-  name: team-supercalifragilisticexpialidocious-supercalifragilisticexpialidocious-supercalifragilisticexpialidocious
+  name: supercalifragilisticexpialidocious-supercalifragilisticexpialidocious-supercalifragilisticexpialidocious
+  title: mary-poppins-service
+  description: magic!
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: team
-  profile:
-    displayName: mary-poppins
-  parent: platform
-  children: []
+  type: service
+  lifecycle: experimental
+  owner: data-experience-devs
+  system: examples
