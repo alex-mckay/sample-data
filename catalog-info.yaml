@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-supercalifragilisticexpialidocious-supercalifragilisticexpialidocious-supercalifragilisticexpialidocious
+spec:
+  type: team
+  profile:
+    displayName: mary-poppins
+  parent: platform
+  children: []
