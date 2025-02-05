@@ -7,7 +7,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
   labels:
-    lead: Julie Andrews
+    lead: Julie-Andrews
 spec:
   type: service
   lifecycle: experimental
