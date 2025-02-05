@@ -6,6 +6,8 @@ metadata:
   description: magic!
   annotations:
     backstage.io/techdocs-ref: dir:.
+  labels:
+    lead: Julie Andrews
 spec:
   type: service
   lifecycle: experimental
